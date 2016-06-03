@@ -173,8 +173,148 @@
 		border-bottom: 3px solid #FFFFFF;
 	}
 
+	#subtopicmenubar{
+		background-color: #FFFFFF;
+		width: 100%;
+		height: 35px;
+		color: black;
+		margin: 0;
+
+	}
+
+	#subtopicmenubar ul{
+		margin:0px 0px 0px 17px;
+		padding:12px 0px 0px 0px;
+	}
 
 
+	#subtopicmenubar li{
+		list-style: none;
+		font-size: 0.9em;
+		padding: 5px; 
+		float: left;
+		border-right:1px solid #DCDCDC; 
+		padding: 0px 13px 0px 10px;
+		
+	}
+
+	.subMenuUKSelected{
+		font-size: 1.2em !important;
+		border-bottom: 4px solid #BB1919;
+		border-right: none !important;
+		margin-top: -5px !important;
+		height: 25px;
+	}
+
+	#subMenuEngland{
+		border-left: 1px solid #DCDCDC;
+	}
+
+
+	#content{
+		margin:0px 0px 0px 17px;
+		padding:12px 0px 0px 0px;
+		font-size: 0.8em;
+		width: 100%;
+		color: black;
+	}
+
+
+	.date{
+		background-image: url("images/lastupdate.png");
+		background-size: 15%;
+		background-repeat: no-repeat;
+		background-position: left;
+		padding: 0px 0px 0px 20px !important;
+		width: 90px;
+		font-size: 0.9em;
+		color: #5A5A5A;
+		border-right: 1px solid #DCDCDC;
+	}
+
+
+	h1{
+		margin:0px 0px 0px 10px;
+		padding:12px 0px 0px 0px;
+		color: #686868;
+		font-size: 2.5em;
+	}
+	h1:hover{
+		color: #1167A8;
+	}
+
+
+	.headlineimage{
+		padding-top: 10px;
+		margin-left: -10px;
+		width: 38%;
+		float: left;
+	}
+
+	.headlineSummary{
+		color: #5A5A5A;
+		font-size: 1.1em;
+		position: relative;
+		width: 220px;
+		float: left;
+		left: 10px;
+		padding:0 50px 10px 0px;
+	}
+
+	.headlineSummary ul{
+		margin:0;
+		padding: 0;
+	}
+
+	.headlineSummary li{
+		list-style: none;
+		float: left;
+		padding:0 0px 0px 10px;
+
+	}
+
+	.headlineSummary a{
+		text-decoration: none;
+		color: red;
+		font-size: 0.9em;
+	}
+	.headlineSummary a:hover{
+		color: #1167A8;
+	}
+
+
+	#emptyPaddingBottom{
+		margin: 0 0 0 2px;
+		width: 40px;
+		padding: 0px 0px 10px 0px;
+		border-bottom: 1px solid red;
+	}
+
+	.headlineNewsItems p{
+		margin:10px 0px 10px 0px;
+	}
+
+	.headlineNewsItems a{
+		color: black;
+		font-size: 1em;
+	}
+
+	.headlineNewsItems a:visited{
+		color:#1167A8;
+	}
+	
+
+	.live{
+		background-image: url("images/live.png");
+		background-size: 11%;
+		background-repeat: no-repeat;
+		background-position: left;
+		padding-left: 35px;
+	}
+
+	.linebreak{
+		line-height: 1.6em;
+	}
 
 
 	</style>
@@ -260,6 +400,77 @@
 			</div>
 
 		</div>
+
+		<div class ="break"></div>
+
+		<div id="subtopicmenubar">
+
+			<div class="fixedwidth">
+				
+				<ul>
+					<li class="subMenuUKSelected">UK</li>
+					<li id="subMenuEngland">England</li>
+					<li>N. Ireland</li>
+					<li>Scotland</li>
+					<li>Alba</li>
+					<li>Wales</li>
+					<li>Cymru</li>
+				</ul>
+
+			</div>
+
+		</div>
+
+
+		<div class ="break"></div>
+
+		<div id="content">
+
+			<div class="fixedwidth">
+				
+
+				<h1>Deepcut 'failed in duty of care'</h1>
+
+				<div class = "headlineSummary">
+					<p>Army recruit Pte Cheryl James, who died from a gunshot wound to the head, shot herself, a coroner rules.</p>
+
+					<ul>
+						<li class="date"> 3 minutes ago </li>
+						<li> <a href="http://www.bbc.co.uk/news/england/surrey">Surrey</a></li>
+					</ul>
+
+					<div class ="break"></div>
+
+					<p id ="emptyPaddingBottom"></p>
+
+					<div class ="headlineNewsItems">
+						<p class ="linebreak"> 
+							<a class="live" href="http://www.bbc.co.uk/news/live/uk-england-surrey-36428658">Cheryl James inquest: Latest updates</a><br/>
+							<a  href="http://www.bbc.co.uk/news/the-reporters-36430464">The malevolent culture at Deepcut</a> <br/>	
+							<a  href="http://www.bbc.co.uk/news/magazine-36418185">The tragic soldier</a><br/>	
+							<a  href="http://www.bbc.co.uk/news/uk-england-35458611">Who were the Deepcut four?</a>
+						</p>	
+
+
+					</div>
+					
+
+
+				</div>
+
+
+
+				<img class="headlineimage" src="images/headlineimage.png"/>
+			</div>
+
+		</div>
+
+
+
+
+
+
+
 
 	</div>
 
